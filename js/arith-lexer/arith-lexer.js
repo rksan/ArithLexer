@@ -4,7 +4,7 @@ export default class{
     #self;
 
     constructor(syntax) {
-        this.#self = new ArithmethicLexer(syntax);
+        this.#self = new ArithmeticLexer(syntax);
     };
 
     parse(){
