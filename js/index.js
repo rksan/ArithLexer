@@ -10,6 +10,7 @@ $(function () {
 				.find("input[name=input_arith_sequence]")
 				.val();
 
+			var tree = Arith.parseTree(value);
 			var infix = Arith.infix(tree);
 			var prefix = Arith.prefix(tree);
 			var postfix = Arith.postfix(tree);
