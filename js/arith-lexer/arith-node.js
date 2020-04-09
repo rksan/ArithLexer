@@ -1,4 +1,4 @@
-import NodeType from './arith-node-type';
+import NodeType from './arith-node-type.js';
 
 export default class {
     //_ArithSyntaxNode

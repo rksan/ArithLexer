@@ -1,5 +1,4 @@
 import NodeType from './arith-node-type.js';
-import SyntaxNode from './arith-node.js';
 import Factory from './arith-lexer-factory.js';
 
 //@BNF infix nation
