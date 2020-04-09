@@ -1,7 +1,7 @@
 import Lexer from './arith-lexer.js';
 import SyntaxTree from './arith-syntax-tree.js';
 import SyntaxNode from './arith-node.js';
-import Factory from '/ArighTokenizer/js/arith-tokenizer/arigh-tokenizer-factory.js';
+import Factory from '/ArihTokenizer/js/arith-tokenizer/arigh-tokenizer-factory.js';
 
 //factory class
 
