@@ -1,21 +1,22 @@
 //@use jQuery
 
-$(function() {
+import Arith from './arithmetic.js';
+
+$(function () {
 	$(document)
 		.find("#go")
-		.on("click", function() {
+		.on("click", function () {
 			var value = $(document)
 				.find("input[name=input_arith_sequence]")
 				.val();
 
-			var tree = _Arith.parseTree(value);
-			var infix = _Arith.infix(tree);
-			var prefix = _Arith.prefix(tree);
-			var postfix = _Arith.postfix(tree);
-			var result = _Arith.calc(tree);
+			var infix = Arith.infix(tree);
+			var prefix = Arith.prefix(tree);
+			var postfix = Arith.postfix(tree);
+			var result = Arith.calc(tree);
 
 			var $table = $("<table />").css({
-				'border-collapse':' collapse'
+				'border-collapse': ' collapse'
 			});
 			var $tr = $("<tr />").css({
 				"border-top": "1px solid gray",
